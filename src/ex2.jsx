@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const Ex2 = ({ initialItems = [], placeholder = "Add an item" }) => {
     const [items, setItems] = useState(initialItems);
     const [newItem, setNewItem] = useState("");
